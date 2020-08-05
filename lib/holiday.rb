@@ -28,7 +28,7 @@ end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
- holiday_hash[:spring].each do |holiday, decorations|
+ holiday_hash[:spring].each do |holiday, grill|
    grill << supply
 end
 end
